@@ -15,7 +15,7 @@ now = datetime.datetime.now()
 last_month =  int(str(now).split('-')[1])-1
 close_prices_list = []
 stock = 'GOOG'
-api_url = 'https://www.quandl.com/api/v3/datasets/WIKI/%s.json?api_key=XPJ-bHXLTF3CvTThXtzL' % stock
+api_url = 'https://www.quandl.com/api/v3/datasets/WIKI/%s.json?api_key=u8TvzD9d5b_E3Ceft5xz' % stock
 session = requests.Session()
 session.mount('http://', requests.adapters.HTTPAdapter(max_retries=3))
 raw_data = session.get(api_url)
